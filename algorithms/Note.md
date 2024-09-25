@@ -25,7 +25,3 @@ The computation process takes the input and generates an output.
 3. **Design the Computation Process:**
    - This is the hardest part.
    - Here, you design a step-by-step process that uses the inputs to produce the desired output.
-
----
-
-### Visualization of the process:
