@@ -12,6 +12,8 @@ The computation process takes the input and generates an output.
 
 ## Steps for designing an algorithm:
 
+For ouput and input, speficy the formatting needed which is the text printed before or after the actual variable 
+
 1. **Identify the Output:**
 
    - Start with the easiest part, which is identifying what the output is asking for.
