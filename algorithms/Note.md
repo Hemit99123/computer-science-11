@@ -21,7 +21,7 @@ The computation process takes the input and generates an output.
 
    - Identify the inputs based on the problem.
    - If no inputs are specified, the algorithm cannot work as it won't be able to produce an output.
-
+   - **    THEY ONLY INCLUDE THE ONES GIVEN FROM THE USER, FIXED VARIABLES SHOULD JUST BE MENTIONED IN THE COMPUTATION  **
 3. **Design the Computation Process:**
    - This is the hardest part.
    - Here, you design a step-by-step process that uses the inputs to produce the desired output.
