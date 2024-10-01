@@ -19,3 +19,10 @@ remainder_2 = remainder % 10
 nickels = remainer_2 // 5
 
 pennies = remainder_2 % 5
+
+print("The minimum number of coins is:")
+
+print("Quarters", quarters)
+print("Dimes", dimes)
+print("Nickels", nickels)
+print("Pennies", pennies)
