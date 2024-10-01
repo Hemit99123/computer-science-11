@@ -21,8 +21,8 @@ while roll > 0:
 
     # The two rolls providing random values
     
-    die_1 = random.randint(0,6)
-    die_2 = random.randint(0,6)
+    die_1 = random.randint(1,6)
+    die_2 = random.randint(1,6)
 
     # The sum of both of them within a variable
     
