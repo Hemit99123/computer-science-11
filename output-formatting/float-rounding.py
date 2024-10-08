@@ -9,3 +9,6 @@
 
 number = 40.89087
 print("TEXT CAN BE WRITTEN HEREE {:.1f}".format(number))
+
+# FOR WHOLE NUMBER (ROUNDS TO THE NEAREST WHOLE NUMBER)
+print("TEXT CAN BE WRITTEN HEREE {:.0f}".format(number))
