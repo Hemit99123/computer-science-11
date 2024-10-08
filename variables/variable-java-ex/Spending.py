@@ -19,7 +19,6 @@ total = food_money + clothing_money + entertainment_money + rent_money
 
 # Finding the total based on the total of the money spent
 # Multiply by 100 because it needs to be a 100s value not a decimal value (0.5)
-
 food_percent = (food_money / total) * 100
 clothing_percent = (clothing_money / total) * 100
 entertainment_percent = (entertainment_money / total) * 100
