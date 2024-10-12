@@ -13,7 +13,10 @@ if age > 18:
   print("Adult")
 
 
-# The elif statements are in asc order because if the first statement is true, the rest of the statements will not be checked
+# The elif statements are in asc order because we are checking for < (less than)
+# these comparision operators would be true for a larger number in a small input
+# e.g. if age <=12 was first and input was 4 it would be true 
+# but 4 != to preteen 
 
 # If not, then checking if age is below/equal to 5
 
