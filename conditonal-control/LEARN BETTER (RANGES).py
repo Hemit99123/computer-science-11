@@ -14,11 +14,10 @@ if (waves > 6):
 # If waves are not above 6 feet, then we must check for ranges
 
 # GOING IN ASC order because its much easier to read!
-elif (0 <= waves <= 3):
-    print("Go for a swim")
-
-elif (3 <= waves <= 6):
-    print("Go body boarding!")
+elif (3 <= wave_height < 6):
+        print("Go body boarding!")
+elif (0 <= wave_height < 3):
+        print("Go for a swim.")
 
 # If waves in feet don't make it to any of these ranges, output the following
 else:
