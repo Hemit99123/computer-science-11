@@ -18,17 +18,17 @@ if age > 18:
 # e.g. if age <=12 was first and input was 4 it would be true 
 # but 4 != to preteen 
 
-# If not, then checking if age is below/equal to 5
+# If not true, then checking if age is below/equal to 5
 
 elif age <= 5:
   print("Toddler")
 
-# If not, checking if age is below/equal to 10
+# If not true, checking if age is below/equal to 10
 
 elif age <= 10:
   print("Child")
 
-# If not, checking if age is below/equal to 12
+# If not true, checking if age is below/equal to 12
 
 elif age <= 12:
   print("Preteen")
