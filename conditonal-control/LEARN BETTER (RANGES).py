@@ -16,9 +16,9 @@ if (waves > 6):
 # GOING IN ASC order because its much easier to read!
 
 # We assume that the boundries (ranges) are exlusive unless explicity stated otherwise (since we are using mathemitcal logic
-elif (3 <= wave_height < 6):
+elif (3 <= waves < 6):
         print("Go body boarding!")
-elif (0 <= wave_height < 3):
+elif (0 <= waves < 3):
         print("Go for a swim.")
 
 # If waves in feet don't make it to any of these ranges, output the following
