@@ -19,6 +19,7 @@ category_5 = "Category 5: greater than 155 mph or 135 kt or 249 km/hr"
 
 # The category is determined based on the type of unit being used as ranges differ
 # For each unit, we run nested if statements to find the category for the speific speed entered by the user
+# Going in ASC order for elifs because it is much better to read
 if (unit == "km"):
   if (119 <= speed <= 153):
     print(category_1)
