@@ -5,28 +5,6 @@
 # Vending Machine 
 # 14 oct 2024 
 
-
-'''
-Scenario:
-You are building a program for a vending machine that only dispenses snacks under specific conditions. The vending machine has several sensors that monitor various factors before allowing a snack to be dispensed.
-
-The machine will only dispense a snack if:
-
-The item stock is greater than zero.
-The machine temperature is within an acceptable range.
-Either the user has enough balance to purchase the snack OR the user has entered a valid discount code.
-Design a program that determines whether the vending machine should dispense a snack or not, based on these conditions.
-
-Inputs:
-The number of items in stock.
-The current temperature of the vending machine.
-The user’s balance.
-Whether or not the user has entered a valid discount code.
-Outputs:
-If the conditions are met, output: "Snack dispensed!"
-If the conditions are not met, output: "Unable to dispense snack."
-'''
-
 price_item = int(input("Enter the price of the item:"))
 
 number_items = int(input("Enter the amount of items:"))
