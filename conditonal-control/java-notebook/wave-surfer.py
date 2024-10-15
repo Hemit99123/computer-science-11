@@ -13,6 +13,11 @@ wave_height = int(input("Enter the amount of wave height:"))
 if (wave_height >= 6):
     print("Great day for surfing!")
 
-# If this condition isn't meant, waves are under 6 feet which means another output 
-else:
+elif (3 < wave_height < 6):
     print("Go body boarding!")
+
+elif (0 <= wave_height <= 3):
+    print("Go swimming")
+
+else:
+    print("Whoa! What kind of surf is that?")
