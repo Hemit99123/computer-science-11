@@ -25,7 +25,8 @@ if (discriminant < 0):
 elif (discriminant == 0):
     print("One root")
 
-# It must be a postive integer if it isnt negative or 0 
+# It must be a postive integer if it isnt negative or 0 (so this is when discriminant 
+# is a postive value)
 
 else:
     print("Two roots")
