@@ -25,5 +25,7 @@ if (discriminant < 0):
 elif (discriminant == 0):
     print("One root")
 
-elif (discriminant > 0):
+# It must be a postive integer if it isnt negative or 0 
+
+else:
     print("Two roots")
