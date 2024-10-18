@@ -6,9 +6,9 @@
 # 8 oct 2024
 
 from math import sqrt
-a = int(input())
-b= int(input())
-c = int(input())
+a = int(input("Enter the value of a:"))
+b= int(input("Enter the value of b:"))
+c = int(input("Enter the value of c:"))
 
 # First find the root from the equation
 
