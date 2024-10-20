@@ -18,7 +18,7 @@ elif (5 <= age <= 10):
   print("AGE RANGE IS BETWEEN 5 and 10");
 
 
-# No = so it is NOT inclusive range
+# No == so it is NOT inclusive range
 
 # BETWEEN 6 and 12 (non-inclusive = between)
 
