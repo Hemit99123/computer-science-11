@@ -6,6 +6,8 @@
 # 18 oct 2024
 
 # Get the irrelational number from the math lib so that it is the most accurately represented!
+# using as which will assign the function e to euler so that is is more descriptive for better communications marks
+
 from math import e as euler
 
 x = int(input("Enter a value for x:"))
