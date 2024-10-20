@@ -7,24 +7,32 @@ import math
 
 angle=float(input("Give an angle: ")) 
 
-angle_rad=math.radians(angle)    # Converts angle from deg to radians   
+# Converts angle from deg to radians   
+angle_rad=math.radians(angle)
                                       
 
-sine_value=math.sin(angle_rad)   # gets sine from radian CAN ONLY BE RADIAN
-tan_value = math.tan(angle_rad) # gets tan 
-cos_value = math.cos(angle_rad) # gets cops
+# gets sine from radian 
+sine_value=math.sin(angle_rad)
 
+# gets tan 
+tan_value = math.tan(angle_rad) 
+
+# gets cops
+cos_value = math.cos(angle_rad) 
+
+# rounded value
 print(" Sine of {:.2f} Deg = {:.2f}".format(angle,sine_value))
 
+# asin, atan and acos find the original angle theta based on the sin,cos,tan value
+
 original_angle_rad = math.asin(sine_value)
-original_angle_rad = math.atan(tan_value)
+original_angle_rad = math.acos(tan_value)
 original_angle_rad = math.atan(cos_value)
 
-# Inverse Trig( Inverse sine function)
-# gets angle theta based on trig function (sin, cos or tan)
+# converts from radians to deg
+original_angle_deg=math.degrees(original_angle_rad) 
 
-original_angle_deg=math.degrees(original_angle_rad) # converts from radians to deg
-
+# in trig, go to decimal places up to 4
 print('Given angle is {:.4f} rad'.format(original_angle_rad))
 print('Given angle is {:.2f} deg'.format(original_angle_deg))
 
