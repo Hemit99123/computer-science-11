@@ -21,6 +21,6 @@ elif (3 <= waves < 6):
 elif (0 <= waves < 3):
         print("Go for a swim.")
 
-# If waves in feet don't make it to any of these ranges, output the following
+# If waves in feet don't make it to any of these ranges, output the following (otherwise)
 else:
     print("Whoa! What kind of a surf is that?")
