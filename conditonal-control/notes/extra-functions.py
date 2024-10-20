@@ -26,3 +26,10 @@ if (x%2 == 0):
   result = "Event"
 else:
   result = "Odd"
+
+# assert (produces an error) 
+# good to use when you want to check for a condition that is troublesome and it will cause an error if that condition is meet
+
+assert age >= 0, "Age must be non-negative"
+
+# here we are checking if age is a negative. if so we assert the error of "Age must be non-negative"
