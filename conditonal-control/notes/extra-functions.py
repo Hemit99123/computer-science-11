@@ -29,6 +29,8 @@ else:
 
 # assert (produces an error) 
 # good to use when you want to check for a condition that is troublesome and it will cause an error if that condition is meet
+# it raises an assertionerror
+# assertion is a condition that you expect to be True
 
 assert age >= 0, "Age must be non-negative"
 
