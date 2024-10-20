@@ -13,10 +13,12 @@
 age = 50
 name = "Dwight"
 
+# ONLY ONE of this conditions need to be true for this to execute
 if (age < 50 or age > 100);
   print("You are lower than 50 or above 100 in age")
 
 # AND -> used when both conditions need to be true
+# BOTH conditions need to be true for this to execute
 
 if (age < 50 and name == "Dwight"):
   print("You are above the age of 50 and your name is Dwight")
