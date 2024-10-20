@@ -5,14 +5,11 @@
 # Ex 12
 # 18 oct 2024
 
-import math
+# Get the irrelational number from the math lib so that it is the most accurately represented!
+from math import e as euler
 
 x = int(input("Enter a value for x:"))
 y = int(input("Enter a value for y:"))
-
-# Get the irrelational number from the math lib so that it is the most accurately represented!
-
-euler = math.e
 
 # calculates x ^ y
 result_math_model = euler ** (y*math.log(x))
