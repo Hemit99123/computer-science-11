@@ -41,3 +41,16 @@ print(math.e) # gets euler constant
 
 logarithm_value = math.log(1000) # calculates logarithms
 print(logarithm_value)
+
+
+# Example of importing One function form tyhe math library
+#ICS3U0
+#Mr Veera
+# 17 Oct 2024
+
+# added an alias for e so it is more descriptive
+
+from math import pi, e as euler
+
+print(pi)
+print(euler)
