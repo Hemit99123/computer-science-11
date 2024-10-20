@@ -19,4 +19,4 @@ if (age < 50 or age > 100);
 # AND -> used when both conditions need to be true
 
 if (age < 50 and name == "Dwight"):
-  print("You are 50 and your name is Dwight")
+  print("You are above the age of 50 and your name is Dwight")
