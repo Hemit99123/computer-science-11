@@ -61,7 +61,9 @@ arcsine_deg = degrees(arcsine)
 arccosine = degrees(arccosine)
 arctangent = degrees(arctangent)
 
-# in trig we mostly round to the 4 digit so i am reflecting that here
+# in trig we mostly round to the 4 digit so i am reflecting that here with the syntax :.4f which is similar to the syntax of the .format()
+# this looks more cleaner and easier to read hence why i choose this syntax
+
 print(f"The arcsine of {sine} is {arcsine_deg:.4f}")
 print(f"The arccosine of {cosine} is {arccosine:.4f}")
 print(f"The arctangent of {tangent} is {arctangent:.4f}")
