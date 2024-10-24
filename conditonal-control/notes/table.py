@@ -17,3 +17,18 @@ print(row1)
 print(row2)
 print(row3)
 print(row4)
+
+
+print("{:>24}{:>10} {:>10}".format("Tax","Tip", "Pay"))
+print("{:<20}{:<10.2f}{:<10.2f}{:<10.2f}".format("Person #1",person_one_tax, split_tip, person_one_pay))
+print("{:<20}{:<10.2f}{:<10.2f}{:<10.2f}".format("Person #2",person_two_tax, split_tip, person_two_pay))
+print("{:<20}{:<10.2f}{:<10.2f}{:<10.2f}".format("Person #3",person_three_tax, split_tip, person_three_pay))
+print("{:<20}{:<10.2f}{:<10.2f}{:<10.2f}".format("Person #4", person_four_tax, split_tip,person_four_pay))
+print()
+
+print("{:<20}{:<10.2f}".format("Subtotal", subtotal))
+print("{:<20}{:<10.2f}".format("Total Tax", total_tax))
+print("{:>25}".format("-----"))
+print("{:<20}{:<10.2f}".format("Total Tip", total_tip))
+print("{:<20}{:<10.2f}".format("Grand Total", grand_total))
+
