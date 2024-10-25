@@ -29,7 +29,7 @@ elif (51 <= data <= 150):
 # here the up to 50 range is accounted for and also the last range of 51 - 150
 # the amount of gbs in between that range is 100 gbs, so we account for that because
 # we want to account for ALL data used in that range.
-# whatever is above 150 (starting of 151) will be accounted for with the pricing for 151-300
+# whatever is above 150 (starting at 151) will be accounted for with the pricing for 151-300
 elif (151 <= data <= 300):
     price = 50 * 0.5 + 100 * 1 + (data-150) * 2
 
