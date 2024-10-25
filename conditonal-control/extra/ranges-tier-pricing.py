@@ -70,6 +70,8 @@ peak_hours = input("Is it peak hours?:")
 if (usage <= 30):
     cost = usage * 0.25
 
+# range is from 31 to 130 to account for the 30 units in the prior range (100+30)
+
 elif (31 <= usage <= 130):
     # the remaining usage is from 31 to current so we subtract by 30 so that 31 can be accounted for and does it result in a negative (usage-30)
     cost = 30 * 0.25 + (usage-30) * 0.5
