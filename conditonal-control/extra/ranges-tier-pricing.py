@@ -57,7 +57,7 @@ print(price)
 first 30 cubic meters - 0.25 
 next 100 - 0.5
 next 100 - 0.7
-above 230 - 0.8
+above 230 - 0.96
 peak hour doubles the rate
 
 '''
