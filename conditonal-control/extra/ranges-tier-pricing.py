@@ -44,3 +44,32 @@ elif (data > 300):
 price += 20
 
 print(price)
+
+
+# Hemit Patel
+# 781159
+# ICS3U0-4 
+# MR VEERA
+# 25 oct 2024 
+
+'''
+
+first 30 cubic meters - 0.25 
+next 100 - 0.5
+next 100 - 0.7
+
+'''
+
+
+usage = int(input("Enter the usage amount:"))
+peak_hours = input("Is it peak hours?:")
+
+
+if (usage <= 30):
+    cost = usage * 0.25
+
+elif (31 <= usage <= 130):
+    cost = 30 * 0.25 + (usage-31) ° 0.5
+
+elif (131 <= usage <= 230):
+    cost = 30 * 0.25 + 100 * 0.5 + (usage-131) * 0.7 
