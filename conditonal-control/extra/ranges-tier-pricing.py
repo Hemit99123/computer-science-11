@@ -37,6 +37,9 @@ elif (151 <= data <= 300):
 elif (data > 300):
     price = 50 * 0.5 + 100 * 1 + 150 * 2 + (data - 300) * 3
 
+# add 20 to the final price because this is the base pricing
+# which remains the same regardless of other conditions
+
 price += 20
 
 print(price)
