@@ -76,6 +76,7 @@ elif (31 <= usage <= 130):
     # the remaining usage is from 31 to current so we subtract by 30 so that 31 can be accounted for and does it result in a negative (usage-30)
     cost = 30 * 0.25 + (usage-30) * 0.5
 
+# o the next why next to next 100 cubic metert is from 131 o 230 (values that would apply to that range) is because you count all 3 ranges when looking for a value here that pricing would apply
 elif (131 <= usage <= 230):
     cost = 30 * 0.25 + 100 * 0.5 + (usage-130) * 0.7 
 
