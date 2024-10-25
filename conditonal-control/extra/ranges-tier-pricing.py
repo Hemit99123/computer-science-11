@@ -71,12 +71,16 @@ if (usage <= 30):
     cost = usage * 0.25
 
 elif (31 <= usage <= 130):
-    cost = 30 * 0.25 + (usage-31) * 0.5
+    # the remaining usage is from 31 to current so we subtract by 30 so that 31 can be accounted for and does it result in a negative (usage-30)
+    cost = 30 * 0.25 + (usage-30) * 0.5
 
 elif (131 <= usage <= 230):
     cost = 30 * 0.25 + 100 * 0.5 + (usage-130) * 0.7 
 
 else:
     cost = 30 * 0.25 + 100 * 0.5 + 100 * 0.7 + (usage-230) * 0.96
+
+# this is an independant decision that is not affected by the pricing of the usage
+
 if (peak_hours == "True"):
     cost = cost * 2 
