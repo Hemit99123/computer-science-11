@@ -57,6 +57,7 @@ print(price)
 first 30 cubic meters - 0.25 
 next 100 - 0.5
 next 100 - 0.7
+above 230 - 0.8
 peak hour doubles the rate
 
 '''
@@ -75,5 +76,7 @@ elif (31 <= usage <= 130):
 elif (131 <= usage <= 230):
     cost = 30 * 0.25 + 100 * 0.5 + (usage-130) * 0.7 
 
+else:
+    cost = 30 * 0.25 + 100 * 0.5 + 100 * 0.7 + (usage-230) * 0.96
 if (peak_hours == "True"):
     cost = cost * 2 
