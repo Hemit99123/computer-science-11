@@ -69,7 +69,7 @@ if (usage <= 30):
     cost = usage * 0.25
 
 elif (31 <= usage <= 130):
-    cost = 30 * 0.25 + (usage-31) ° 0.5
+    cost = 30 * 0.25 + (usage-31) * 0.5
 
 elif (131 <= usage <= 230):
     cost = 30 * 0.25 + 100 * 0.5 + (usage-131) * 0.7 
