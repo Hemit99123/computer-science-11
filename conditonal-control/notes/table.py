@@ -32,3 +32,10 @@ print("{:>25}".format("-----"))
 print("{:<20}{:<10.2f}".format("Total Tip", total_tip))
 print("{:<20}{:<10.2f}".format("Grand Total", grand_total))
 
+
+print("{:<45} {:<8}".format("Distance", "Cost"))
+print("{:<45} {:<8}".format("-----------------------------", "--------"))
+print("{:<45} {:<8}".format("0 through 100", "5.00"))
+print("{:<45} {:<8}".format("More than 100 but not more than 500", "8.00"))
+print("{:<45} {:<8}".format("More than 500 but less than 1,000", "10.00"))
+print("{:<45} {:<8}".format("1,000 or more", "12.00"))
