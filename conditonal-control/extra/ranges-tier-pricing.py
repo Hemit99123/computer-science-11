@@ -13,6 +13,7 @@ next 151 to 300 gb - 2 per gb
 above 300 gb - 3 per gb
 
 '''
+
 data = int(input())
 
 if (data <= 50):
