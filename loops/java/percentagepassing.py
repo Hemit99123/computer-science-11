@@ -5,7 +5,7 @@
 # 29 oct 2024
 # percentage passing
 
-number_of_scores = int(input("Enter the amount of scores")) # stores the total number of scores entered
+number_of_scores = int(input("Enter the amount of scores:")) # stores the total number of scores entered
 
 total_above_70=0 # counts the scores above 70
 count = 1
