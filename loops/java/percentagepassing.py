@@ -14,7 +14,7 @@ while(count<=number_of_scores): # permits scores to be entered until the user de
 
     score=int(input("Enter score: "))
 
-    if( score>=70): # Check for score above 70
+    if(score>70): # Check for score above 70
         total_above_70 += 1 # count of score above 70
     
     count += 1 # count of all score entered
