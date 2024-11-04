@@ -6,11 +6,12 @@
 
 amount = int(input("Enter the amount:"))
 doubled = amount * 2
-rate = float(input("Enter the percentage:")) / 100
+percent_number = float(input("Enter the percentage:"))
+percent_decimal = percent_number / 100
 year = 0
 
 while True:
-    interest = amount * rate
+    interest = amount * percent_decimal
     amount += interest
     year += 1
     if (amount >= doubled):
