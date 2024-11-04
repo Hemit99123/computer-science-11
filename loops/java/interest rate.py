@@ -10,10 +10,10 @@ rate = float(input("Enter the percentage:")) / 100
 year = 0
 
 while True:
-    if (amount >= doubled):
-        break
     interest = amount * rate
     amount += interest
     year += 1
+    if (amount >= doubled):
+        break
 
-print(year, "years")
+print(year, "years to reach ${}".format(doubled))
