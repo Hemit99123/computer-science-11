@@ -6,7 +6,6 @@
 # 5 nov 2024
 
 number = int(input())
-
 divisor = 2
 
 # flag which is set to false once number is found out not to be prime 
