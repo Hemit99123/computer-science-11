@@ -13,6 +13,7 @@ if (lower_limit == 1):
     
 higher_limit = int(input())
 
+print()
 print("FOR LOOP")
 print()
 
@@ -31,6 +32,7 @@ for number in range(lower_limit, higher_limit + 1):
 
 number = lower_limit
 
+print()
 print("WHILE LOOP")
 print()
 
