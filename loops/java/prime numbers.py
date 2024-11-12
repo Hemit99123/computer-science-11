@@ -30,7 +30,7 @@ else:
 
 
 is_prime = True
-for divisor in range(2, number - 1):
+for divisor in range(2, number):
     if (number % divisor == 0):
         is_prime = False
 
