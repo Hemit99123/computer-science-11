@@ -25,3 +25,16 @@ if (is_prime == True):
     print("Number is prime")
 else:
     print("Number not prime")
+
+
+
+
+is_prime = True
+for divisor in range(2, number - 1):
+    if (number % divisor == 0):
+        is_prime = False
+
+if (is_prime == True):
+    print("Number is prime")
+else:
+    print("Number not prime")
