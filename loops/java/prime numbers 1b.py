@@ -17,7 +17,7 @@ print()
 print("FOR LOOP")
 print()
 
-for number in range(lower_limit, higher_limit):
+for number in range(lower_limit, higher_limit + 1):
     is_prime = True
     for divisor in range(2, number):
         if (number % divisor == 0):
