@@ -6,12 +6,12 @@
 # 5 nov 2024
 
 ## FOR LOOP METHOD
-lower_limit = int(input())
+lower_limit = int(input("Enter lower limit of range"))
 
 if (lower_limit == 1):
     lower_limit = 2
     
-higher_limit = int(input())
+higher_limit = int(input("Enter higher limit of range"))
 
 print()
 print("FOR LOOP")
