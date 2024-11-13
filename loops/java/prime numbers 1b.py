@@ -23,7 +23,7 @@ for number in range(lower_limit, higher_limit + 1):
         if (number % divisor == 0):
             is_prime = False
 
-    if (is_prime == True):
+    if (is_prime):
         print(number)
 
 
