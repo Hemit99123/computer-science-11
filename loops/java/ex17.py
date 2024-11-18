@@ -9,9 +9,7 @@ pwd = "hemit1212"
 
 is_denied = True
 
-attempts = 0
-
-while (attempts >= 3):
+for _ in range(3):
     guess = input("Enter the password:")
 
     if (guess == pwd):
