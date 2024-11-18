@@ -10,10 +10,7 @@ username = input("Enter a user name:")
 
 password = ""
 
-while (True):
+while (len(password) >8):
     password = input("Enter a password that is at least 8 characters:")
-
-    if (len(password) > 8):
-        break
 
 print(f"Your user name is {username.lower()} and your password is {password.lower()}")
