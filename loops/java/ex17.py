@@ -14,12 +14,12 @@ attempts = 0
 while (attempts >= 3):
     guess = input("Enter the password:")
 
-    if (guess !== pwd):
-        print("The password you typed is incorrect.")
-    else:
+    if (guess == pwd):
         print("Welcome")
         is_denied = False
         break
+    else:
+        print("The password you typed is incorrect.")
 
 if (is_denied == True):
     print("Access denied.")
