@@ -12,4 +12,4 @@ for letter in word_input:
     if (letter.lower() in "aeiou"):
         number_vowels += 1
 
-print("The vowels in", word_input, "are", number_vowels)
+print("The number of vowels in", word_input, "is", number_vowels)
