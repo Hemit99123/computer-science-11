@@ -21,4 +21,3 @@ print("{:<15}{:<10}".format("Number","Occurance"))
 
 for num in range(0,10):
     print("{:<15}{:<5}".format(num, idx[num]))
-          
