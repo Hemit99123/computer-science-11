@@ -1,7 +1,7 @@
 # Hemit Patel
 # 781159
 # ICS3U0-4 
-# 10 dec 2024 
+# 11 dec 2024 
 # Analysis (numbers)
 
 from statistics import median, mean, mode
