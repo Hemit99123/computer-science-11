@@ -19,6 +19,7 @@ while (True):
      nums.append(num)
      
 ranges = [0,0,0,0,0,0,0,0,0,0]
+ranges_name = ["1-5", "6-10", "11-15", "16-20", "21-25", "26-30", "31-35", "36-40", "41-45", "45-50"]
 
 for num in nums:
     if (1 <= num <= 5):
@@ -42,18 +43,12 @@ for num in nums:
     elif (46 <= num <= 50):
         ranges[9] += 1
 
-# Print the distribution
-print("{:>6} {}".format("1-5: ", "*" * ranges[0]))
-print("{:>6} {}".format("6-10: ", "*" * ranges[1]))
-print("{:>6} {}".format("11-15: ", "*" * ranges[2]))
-print("{:>6} {}".format("16-20: ", "*" * ranges[3]))
-print("{:>6} {}".format("21-25: ", "*" * ranges[4]))
-print("{:>6} {}".format("26-30: ", "*" * ranges[5]))
-print("{:>6} {}".format("31-35: ", "*" * ranges[6]))
-print("{:>6} {}".format("36-40: ", "*" * ranges[7]))
-print("{:>6} {}".format("41-45: ", "*" * ranges[8]))
-print("{:>6} {}".format("46-50: ", "*" * ranges[9]))
+# Build histogram
+# Ensure both ranges_name and ranges are both the same length because both are referenced based on their pos 
 
+for idx in range(len(ranges)):
+     print("{:>6} {}".format(ranges_name[idx], ranges[idx])
+           
 print("Average:", mean(nums))
 print("Max:", max(nums))
 print("Range:", max(nums) - min(nums))
