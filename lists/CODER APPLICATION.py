@@ -16,7 +16,7 @@ upper_alphabet = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
 
 for letter in word:
     
-    if (letter not in alphabet):
+    if (letter not in upper_alphabet and letter not in lower_alphabet):
         coded += letter
         continue
 
