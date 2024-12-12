@@ -43,16 +43,16 @@ for num in nums:
         ranges[9] += 1
 
 # Print the distribution
-print("{:<7} {}".format("1-5:", "*" * ranges[0]))
-print("{:<7} {}".format("6-10:", "*" * ranges[1]))
-print("{:<7} {}".format("11-15:", "*" * ranges[2]))
-print("{:<7} {}".format("16-20:", "*" * ranges[3]))
-print("{:<7} {}".format("21-25:", "*" * ranges[4]))
-print("{:<7} {}".format("26-30:", "*" * ranges[5]))
-print("{:<7} {}".format("31-35:", "*" * ranges[6]))
-print("{:<7} {}".format("36-40:", "*" * ranges[7]))
-print("{:<7} {}".format("41-45:", "*" * ranges[8]))
-print("{:<7} {}".format("46-50:", "*" * ranges[9]))
+print("{:>6} {:<2}".format("1-5: ", "*" * ranges[0]))
+print("{:>6} {:<2}".format("6-10: ", "*" * ranges[1]))
+print("{:>6} {}".format("11-15: ", "*" * ranges[2]))
+print("{:>6} {}".format("16-20: ", "*" * ranges[3]))
+print("{:>6} {}".format("21-25: ", "*" * ranges[4]))
+print("{:>6} {}".format("26-30: ", "*" * ranges[5]))
+print("{:>6} {}".format("31-35: ", "*" * ranges[6]))
+print("{:>6} {}".format("36-40: ", "*" * ranges[7]))
+print("{:>6} {}".format("41-45: ", "*" * ranges[8]))
+print("{:>6} {}".format("46-50: ", "*" * ranges[9]))
 
 print("Average:", mean(nums))
 print("Max:", max(nums))
