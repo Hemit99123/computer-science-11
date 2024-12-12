@@ -43,8 +43,8 @@ for num in nums:
         ranges[9] += 1
 
 # Print the distribution
-print("{:>6} {:<2}".format("1-5: ", "*" * ranges[0]))
-print("{:>6} {:<2}".format("6-10: ", "*" * ranges[1]))
+print("{:>6} {}".format("1-5: ", "*" * ranges[0]))
+print("{:>6} {}".format("6-10: ", "*" * ranges[1]))
 print("{:>6} {}".format("11-15: ", "*" * ranges[2]))
 print("{:>6} {}".format("16-20: ", "*" * ranges[3]))
 print("{:>6} {}".format("21-25: ", "*" * ranges[4]))
