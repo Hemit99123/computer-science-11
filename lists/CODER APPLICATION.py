@@ -17,10 +17,8 @@ for letter in word:
     
     if (letter not in alphabet):
         coded_word += letter
-        continue
-    
-    index = alphabet.index(letter)
-    coded_word += alphabet[index+2]
-
-
+    else:
+        index = alphabet.index(letter)
+        coded_word += alphabet[index+2]
+        
 print(coded_word)
