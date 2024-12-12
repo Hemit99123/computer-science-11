@@ -5,20 +5,27 @@
 # 12 dec 2024
 # coder application
 
-word = input("Enter a string:").lower()
-coded_word = ""
+word = input("Enter a string:")
+coded = ""
 
 # no need for list, strings also have indexes and better for memory
 # they are also iterable so we can get each of the letter
 
-alphabet = "abcdefghijklmnopqrstuvwxyz"
+lower_alphabet = "abcdefghijklmnopqrstuvwxyz"
+upper_alphabet = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
 
 for letter in word:
     
     if (letter not in alphabet):
-        coded_word += letter
-    else:
-        index = alphabet.index(letter)
-        coded_word += alphabet[index+2]
+        coded += letter
+        continue
+
+    elif (letter.isupper() == True):
+        index = upper_alphabet.index(letter)
+        coded += upper_alphabet[index+2]
+
+    elif (letter.islower() == True):
+        index = lower_alphabet.index(letter)
+        coded += lower_alphabet[index+2]
         
-print(coded_word)
+print(coded)
