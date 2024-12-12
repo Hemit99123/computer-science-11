@@ -7,7 +7,6 @@
 from statistics import median, mean, mode
 
 nums = []
-total = 0
 
 while (True):
      num = int(input())
@@ -18,7 +17,6 @@ while (True):
 
         
      nums.append(num)
-     total += num
 
 one_to_five = ""
 six_to_ten = ""
