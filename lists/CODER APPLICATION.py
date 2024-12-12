@@ -20,7 +20,6 @@ for letter in word:
         continue
     
     index = alphabet.index(letter)
-
     coded += alphabet[index+2]
 
 
