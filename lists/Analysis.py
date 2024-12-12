@@ -17,51 +17,42 @@ while (True):
 
         
      nums.append(num)
-
-one_to_five = ""
-six_to_ten = ""
-eleven_to_fifteen = ""
-sixteen_to_twenty = ""
-twenty_one_to_twenty_five = ""
-twenty_six_to_thirty = ""
-thirty_one_to_thirty_five = ""
-thirty_six_to_forty = ""
-forty_one_to_forty_five = ""
-forty_six_to_fifty = ""
+     
+ranges = [0,0,0,0,0,0,0,0,0,0]
 
 for num in nums:
     if (1 <= num <= 5):
-        one_to_five += "*"
+        ranges[0] += 1
     elif (6 <= num <= 10):
-        six_to_ten += "*"
+        ranges[1] += 1
     elif (11 <= num <= 15):
-        eleven_to_fifteen += "*"
+        ranges[2] += 1
     elif (16 <= num <= 20):
-        sixteen_to_twenty += "*"
+        ranges[3] += 1
     elif (21 <= num <= 25):
-        twenty_one_to_twenty_five += "*"
+        ranges[4] += 1
     elif (26 <= num <= 30):
-        twenty_six_to_thirty += "*"
+        ranges[5] += 1
     elif (31 <= num <= 35):
-        thirty_one_to_thirty_five += "*"
+        ranges[6] += 1
     elif (36 <= num <= 40):
-        thirty_six_to_forty += "*"
+        ranges[7] += 1
     elif (41 <= num <= 45):
-        forty_one_to_forty_five += "*"
+        ranges[8] += 1
     elif (46 <= num <= 50):
-        forty_six_to_fifty += "*"
+        ranges[9] += 1
 
 # Print the distribution
-print("1-5:    " + one_to_five)
-print("6-10:   " + six_to_ten)
-print("11-15:  " + eleven_to_fifteen)
-print("16-20:  " + sixteen_to_twenty)
-print("21-25:  " + twenty_one_to_twenty_five)
-print("26-30:  " + twenty_six_to_thirty)
-print("31-35:  " + thirty_one_to_thirty_five)
-print("36-40:  " + thirty_six_to_forty)
-print("41-45:  " + forty_one_to_forty_five)
-print("46-50:  " + forty_six_to_fifty)
+print("1-5:    " + "*" * ranges[0] )
+print("6-10:   " + "*" * ranges[1])
+print("11-15:  " + "*" * ranges[2])
+print("16-20:  " + "*" * ranges[3])
+print("21-25:  " + "*" * ranges[4])
+print("26-30:  " + "*" * ranges[5])
+print("31-35:  " + "*" * ranges[6])
+print("36-40:  " + "*" * ranges[7])
+print("41-45:  " + "*" * ranges[8])
+print("46-50:  " + "*" * ranges[9])
 
 print("Average:", mean(nums))
 print("Max:", max(nums))
