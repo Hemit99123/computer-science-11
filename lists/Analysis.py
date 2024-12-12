@@ -63,11 +63,8 @@ print("36-40:  " + thirty_six_to_forty)
 print("41-45:  " + forty_one_to_forty_five)
 print("46-50:  " + forty_six_to_fifty)
 
-
-nums_sorted = sorted(nums)
-
 print("Average:", mean(nums))
 print("Max:", max(nums))
 print("Range:", max(nums) - min(nums))
-print("Median:", median(nums_sorted))
-print("Mode:", mode(nums_sorted))
+print("Median:", median(nums))
+print("Mode:", mode(nums))
