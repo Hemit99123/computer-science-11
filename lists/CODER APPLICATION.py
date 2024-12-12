@@ -18,8 +18,6 @@ for letter in word:
     
     if (letter not in upper_alphabet and letter not in lower_alphabet):
         coded += letter
-        continue
-
     elif (letter.isupper() == True):
         index = upper_alphabet.index(letter)
         coded += upper_alphabet[index+2]
