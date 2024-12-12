@@ -5,8 +5,9 @@
 # Palindrome
 
 word = input("Enter a word:")
+reversed_word = word[::-1]
 
-if (word[::-1] == word):
-    print("Palindrome")
+if (reversed_word == word):
+    print("Word is a palindrome.")
 else:
-    print("Is not palindrome")
+    print("Word is not a palindrome.")
