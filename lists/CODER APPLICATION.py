@@ -9,6 +9,8 @@ word = input("Enter a string:").lower()
 coded = ""
 
 # no need for list, strings also have indexes and better for memory
+# they are also iterable so we can get each of the letter
+
 alphabet = "abcdefghijklmnopqrstuvwxyz"
 
 for letter in word:
