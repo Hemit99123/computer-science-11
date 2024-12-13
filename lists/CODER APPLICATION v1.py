@@ -3,7 +3,7 @@
 # ICS3U0-4
 # MR VEERA
 # 12 dec 2024
-# coder application
+# coder application v1
 
 word = input("Enter a string:")
 coded = ""
