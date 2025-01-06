@@ -21,7 +21,10 @@ def hours_to_days(hours):
     days = hours / 24
     print(days) 
 
-type_time = input("What time conversion? Type: HM for hours to minutes, DH for days to hours, MH for minutes to hours, HD for hours to days:")
+print("Type: HM for hours to minutes, DH for days to hours, MH for minutes to hours, HD for hours to days")
+print()
+
+type_time = input("What time conversion?:")
 time = int(input("Enter time amount (number):"))
 
 if (type_time == "HM"):
