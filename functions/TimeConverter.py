@@ -7,17 +7,30 @@
 
 def hours_to_minutes(hours):
     minutes = hours * 60
-    return minutes
+    print(minutes) 
 
 def days_to_hours(days):
     hours = days * 24
-    return hours
+    print(hours) 
 
 def minutes_to_hours(minutes):
     hours = minutes / 60
-    return hours
+    print(hours) 
 
 def hours_to_days(hours):
     days = hours / 24
-    return days
+    print(days) 
 
+type_time = input("What time conversion? Type: HM for hours to minutes, DH for days to hours, MH for minutes to hours, HD for hours to days:")
+time = int(input("Enter time amount (number):"))
+
+if (type_time == "HM"):
+    hours_to_minutes(time)
+elif (type_time == "DH"):
+    days_to_hours(time)
+elif(type_time == "MH"):
+    minutes_to_hours(time)
+elif(hours_to_days == "HD"):
+    hours_to_days(time)
+else:
+    print("invalid")
