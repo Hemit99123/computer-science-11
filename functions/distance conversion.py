@@ -1,3 +1,10 @@
+# Hemit Patel
+# 781159
+# ICS3U0-4 
+# MR VEERA
+# is prime
+# 9 jan 2025
+
 def inches_to_cm(inches):
     """Convert inches to centimeters"""
     return inches * 2.54
