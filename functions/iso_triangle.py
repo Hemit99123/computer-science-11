@@ -2,7 +2,7 @@
 # 781159
 # ICS3U0-4 
 # MR VEERA
-# is prime
+# iso triangle
 # 9 jan 2025
 
 # the size of the triangle (how many "bars" there will be)
