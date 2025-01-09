@@ -11,10 +11,10 @@ def is_perfect_square(n):
 
 def find_pythagorean_triples():
     triples = []
+    # getting all possible values of a (1, 100)
+
     for a in range(1, 100):
-        # for each "a" variable, we need to check every combination
-        # it can have with a "b" variable
-        
+        # for each "a" variable, we need to check every combination it can have with a "b" variable
         # this is why we start the range at a because a itself should not be included
         
         for b in range(a, 100):  
@@ -24,6 +24,6 @@ def find_pythagorean_triples():
                 triples.append((a, b, c))
     return triples
 
-res = " ,".join(map(str, find_pythagorean_triples(a,b)))
+res = " ,".join(map(str, find_pythagorean_triples()))
 
 print(res)
