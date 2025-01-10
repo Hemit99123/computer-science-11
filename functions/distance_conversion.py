@@ -7,35 +7,36 @@
 
 def inches_to_centimeters(inches):
     """Convert inches to centimeters"""
-    return inches * 2.54
+    return f"{inches} inches equals ${inches * 2.54:.1f} centimeter"
 
 def cm_to_inches(cm):
     """Convert centimeters to inches"""
-    return cm / 2.54
+    return f"{cm} centimeters equals ${cm / 2.54:.1f} inches"
+
 
 def feet_to_centimeters(feet):
     """Convert feet to centimeters"""
-    return feet * 30
+    return f"{feet} feet equals ${feet * 30} centimeters"
 
 def cm_to_feet(cm):
     """Convert centimeters to feet"""
-    return cm / 30
+    return f"{cm} centimeters equals ${cm / 30:.1f} feet"
 
 def yards_to_meters(yards):
     """Convert yards to meters"""
-    return yards * 0.91
+    return f"{yards} yards equals ${yards * 0.91:.1f} meters"
 
 def meters_to_yards(meters):
     """Convert meters to yards"""
-    return meters / 0.91
+    return f"{meters} meters equals ${yards / 0.91:.1f} yards"
 
 def miles_to_kilometers(miles):
     """Convert miles to kilometers"""
-    return miles * 1.6
+    return f"{miles} miles equals ${miles * 1.6:.1f} kilometers"
 
 def km_to_miles(km):
     """Convert kilometers to miles"""
-    return km / 1.6
+    return f"{km} kilometers equals ${km / 1.6:.1f} miles"
 
 def display_menu():
     """Display the conversion menu"""
@@ -58,28 +59,28 @@ if (type_of_conversion == 1):
 
     centimeters = inches_to_centimeters(number)
 
-    print (number, "inches equals", centimeters, "centimeters")
+    print (centimeters)
 
 
 elif (type_of_conversion == 2):
 
     centimeters = feet_to_centimeters (number)
 
-    print (number, "feet equals", centimeters, "centimeters")
+    print (centimeters)
 
 
 elif (type_of_conversion == 3):
 
     meters = yards_to_meters (number)
 
-    print (number, "yards equals", meters, "meters")
+    print (meters)
 
 
 elif (type_of_conversion == 4):
 
     kilometers = miles_to_kilometers (number)
 
-    print (number, "miles equals", kilometers, "kilometers")
+    print (kilometers)
 
     
 
@@ -87,30 +88,30 @@ elif (type_of_conversion == 5):
 
     inches = centimeters_to_inches (number)
 
-    print (number, "centimeters equals", inches, "inches")
+    print (inches)
 
 
 elif (type_of_conversion== 6):
 
     feet = centimeters_to_feet (number)
 
-    print (number, "centimeters equals", feet, "feet")
+    print (feet)
 
 
 elif (type_of_conversion == 7):
 
     yards = meters_to_yards (number)
 
-    print (number, "meters equals", yards, "yards")
+    print (yards)
 
 
 elif (type_of_conversion == 8):
 
     miles = kilometers_to_miles(number)
 
-    print (number, "kilometers equals", miles, "miles")
+    print (miles)
 
 
 else:
 
-    print ("null")
+    print ("Invalid input, try again!")
