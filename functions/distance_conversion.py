@@ -16,27 +16,27 @@ def cm_to_inches(cm):
 
 def feet_to_centimeters(feet):
     """Convert feet to centimeters"""
-    return f"{feet} feet equals ${feet * 30} centimeters"
+    return f"{feet} feet equals {feet * 30} centimeters"
 
 def cm_to_feet(cm):
     """Convert centimeters to feet"""
-    return f"{cm} centimeters equals ${cm / 30:.1f} feet"
+    return f"{cm} centimeters equals {cm / 30:.1f} feet"
 
 def yards_to_meters(yards):
     """Convert yards to meters"""
-    return f"{yards} yards equals ${yards * 0.91:.1f} meters"
+    return f"{yards} yards equals {yards * 0.91:.1f} meters"
 
 def meters_to_yards(meters):
     """Convert meters to yards"""
-    return f"{meters} meters equals ${yards / 0.91:.1f} yards"
+    return f"{meters} meters equals {yards / 0.91:.1f} yards"
 
 def miles_to_kilometers(miles):
     """Convert miles to kilometers"""
-    return f"{miles} miles equals ${miles * 1.6:.1f} kilometers"
+    return f"{miles} miles equals {miles * 1.6:.1f} kilometers"
 
 def km_to_miles(km):
     """Convert kilometers to miles"""
-    return f"{km} kilometers equals ${km / 1.6:.1f} miles"
+    return f"{km} kilometers equals {km / 1.6:.1f} miles"
 
 def display_menu():
     """Display the conversion menu"""
