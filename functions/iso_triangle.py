@@ -29,6 +29,9 @@ def add_space(bar, size):
 # then we add the space to the bar 
 # and update our bar attributes (size and space)
 
+# we use _ in this loop because we don't need the counter variable
+# therefore it is useless to us and we can use a placeholder instead 
+
 for _ in range(size):
     bar = draw_bar(size_bar)
     print(add_space(bar, space_bar))
