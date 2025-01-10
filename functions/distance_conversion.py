@@ -48,7 +48,6 @@ def display_menu():
     print("6. Meters to Yards")
     print("7. Miles to Kilometers")
     print("8. Kilometers to Miles")
-    print("9. Exit")
 
 display_menu()
 
