@@ -19,11 +19,11 @@ size_bar = 1
 space_bar = size - 1
 
 # functions used to create bars and add spae
-def draw_bar(size_bar):
-    return "*" * size_bar
+def draw_bar(size):
+    return "*" * size
 
-def add_space(bar, space_bar):
-    return " " * space_bar + bar + " " * space_bar
+def add_space(bar, size):
+    return " " * size + bar + " " * size
 
 # here for each of the bars needed to be created, we first draw the bar
 # then we add the space to the bar 
